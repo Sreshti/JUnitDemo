@@ -21,9 +21,10 @@ public class Calculator {
 		}
 		return a/b;
 	}
- /*public static void main(String [] args)
+ public static void main(String [] args)
  {
 	 Calculator c=new Calculator();
-	 c.add(10.5, 12.5);
- }*/
+	 System.out.println("Add is:"+c.add(10.5, 12.5));
+	 System.out.println("sub is:"+c.subtract(10.5,12.5));
+ }
 }
